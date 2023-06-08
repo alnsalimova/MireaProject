@@ -68,24 +68,29 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="124dp"
-        android:layout_height="59dp"
-        android:layout_marginBottom="56dp"
+        android:layout_width="148dp"
+        android:layout_height="64dp"
         android:backgroundTint="#E8DBAA"
         android:text="Фильмы"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.836"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="134dp"
+        android:layout_width="149dp"
         android:layout_height="61dp"
         android:background="#DFD4AB"
         android:backgroundTint="#D5C896"
         android:text="Подробнее"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="616dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.861"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
